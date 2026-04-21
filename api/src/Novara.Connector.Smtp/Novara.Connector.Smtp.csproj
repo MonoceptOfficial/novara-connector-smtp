@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Novara.Connector.Smtp</PackageId>
-    <Version>1.0.0</Version>
+    <Version>2026.4.21.1</Version>
     <Authors>Monocept</Authors>
     <Company>Monocept</Company>
     <Description>SMTP connector for Novara — outbound transactional email (notifications, digests, password resets). Configuration + connection test; send path wired to the outbound action engine.</Description>
