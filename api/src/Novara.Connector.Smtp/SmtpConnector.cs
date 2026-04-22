@@ -29,7 +29,7 @@ public class SmtpConnector : ConnectorBase
     {
         Id = "connector.smtp",
         Name = "SMTP Email",
-        Version = "2026.4.22.1",
+        Version = BuildProvenance.ReadVersion(typeof(SmtpConnector).Assembly),
         Author = "Monocept",
         Description = "Outbound SMTP email — transactional notifications, digests, alerts. Supports plain SMTP, STARTTLS, and SMTPS.",
         Icon = "mail",
